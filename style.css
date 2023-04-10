@@ -1,0 +1,247 @@
+.overlay {
+    background-color: rgb(0, 0, 0, 0.4);
+    height: 100vh;
+    position: relative;
+}
+
+.content {
+    /* Center vertically and horizontally */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 3%;
+  }
+
+.page {
+    width: 100%;
+    background-color:black;
+}
+
+#main {
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+
+#one {
+    background-image: url("images/borrego-night-sky.jpeg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;   
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    padding-bottom: 4%;
+    line-height: 1.3;
+    letter-spacing: 0.3rem;
+}
+
+h2 {
+    text-align: center;
+    font-size: 13px;
+    padding-bottom: 7%;
+    line-height: 1.3;
+    letter-spacing: 0.3rem;
+}
+
+h3 {
+    font-size: 2em;
+    text-decoration-line: underline;
+    font-size:x-large;
+    line-height: 1.3;
+    letter-spacing: 0.1rem;
+    font-size: 1.9em;
+    text-align: left;
+    text-underline-offset: 20px;
+    text-decoration-thickness: 1px;
+    padding-bottom: 6%;
+}
+
+h4 {
+    font-size: 1.9em;
+    line-height: 1.3;
+    letter-spacing: 0.1rem;
+}
+
+h5 {
+    text-align: center;
+    padding-bottom: 2.5%;
+}
+
+h6 {
+    text-align: center;
+}
+
+h7 {
+    text-align: left;
+    font-size: medium;
+    font-weight: bold;
+    line-height: 1.3;
+    letter-spacing: 0.1rem;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    text-decoration-thickness: 1px;
+    /* padding-bottom: 100px; */
+
+}
+
+p {
+    text-align: left;
+}
+
+#techskills-p {
+    padding-top: 7%;
+    padding-bottom: 3%;
+}
+
+#about_me_img {
+    max-width: 75vh;
+
+}
+.me_img {
+    padding-right: 0;
+}
+
+.name { 
+    color:white;
+}
+.bi { 
+    color:white;
+}
+
+.contact > a > .bi {
+    font-size: 13vh;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.contact { 
+    text-align: center;
+    padding: 20px 0;
+}
+
+.description {
+    border-radius: 10px;
+    padding: 3%;
+    min-height: 315px;
+}
+
+.project {
+    border-radius: 10px;
+    margin-bottom: 3%;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bolded { 
+    font-weight: 700; 
+}
+
+.project_description {
+    font-size: 1.17em;
+    padding-top: 1%;
+}
+
+.me_description {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150%;
+    height: 85vh;
+    resize: horizontal;
+    overflow: auto;
+    padding: 20px;
+    background-color: #272727;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.9);
+    z-index: 9999;
+}
+
+footer {
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    background-color: transparent;
+    padding: 20px 0;
+    width: 100%;
+    margin-top: 20px;
+    font-size: x-small;
+    z-index: 800;
+}
+
+.popup.show {
+    display: block; 
+}
+
+.button {
+    display: inline-block;
+    color:rgb(255, 255, 255);
+    background-color: transparent;
+    padding: 14px 16px;
+    border: 1px solid white;
+    font-size: 13px;   
+    line-height: 1.3;
+    letter-spacing: 0.05rem;
+}
+
+.button:hover {
+    background-color:rgb(168, 159, 190, 0.4);
+    color:white;
+}
+
+.top-btn {
+    text-align: right;
+    border: none;
+}
+
+.buttons {
+    text-align: center;
+}
+
+ul {
+    padding-top: 5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    text-align: left;
+    font-size: medium;
+}
+
+.col-md-4 {
+    border: 1px solid white;
+}
