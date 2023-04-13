@@ -102,6 +102,15 @@ h8 {
     text-underline-offset: 6px;
 }
 
+h9 {
+    display: block;
+    text-align: center;
+    font-size: 9px;
+    padding-top: 7%;
+    line-height: 1.3;
+    letter-spacing: 0.3rem;
+}
+
 p {
     text-align: left;
 }
