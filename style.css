@@ -99,7 +99,7 @@ h7 {
 h8 {
     text-decoration: underline;
     text-decoration-thickness: 1px;
-    text-underline-offset: 10px;
+    text-underline-offset: 6px;
 }
 
 p {
@@ -246,6 +246,7 @@ ul {
 
 .funfacts {
     padding-top: 0;
+    padding-left: 8%;
 }
 
 a {
